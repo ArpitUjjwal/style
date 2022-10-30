@@ -73,25 +73,23 @@ nav ul li a{
 
 
 
-/* home */
-
-
-.car-img1{
-    position: relative;
-    left: 50px;
-    top: 25px;
-
+#home{
+    width: 100%;
 }
 
-.img h1{
-    float: right;
-    padding-top: 14%;
-    padding-right: 6%;
-    font-size: 35px;
+#home .img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-
-
+@media(max-width:1000px){
+    #home .img{
+        flex-direction: column;
+    }
+}
  
 /* sale */
 
@@ -399,7 +397,7 @@ nav ul li a{
     cursor: pointer;
 
 }
-
+/* 
 @media(max-width:1153px){
     .bags h1,h3{
         text-align: left;
@@ -644,7 +642,7 @@ nav ul li a{
 @media(max-width:607px){
      
 }
-
+ */
 
     
 
